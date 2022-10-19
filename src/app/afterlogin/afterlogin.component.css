@@ -1,0 +1,44 @@
+.heading{
+    text-align: center;
+}
+.headimg{
+    /* width: 100%; */
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+.topdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.moviedesc{
+    margin: 5px;
+}
+.bottomdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.popcorn{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* .main{
+    background-color: #fcf4f4;
+} */
+.moviedesc,.popcorndesc{
+    font-family: 'Licorice', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+a{
+    color:#f6ebed;
+}
+.heading{
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: #f6ebed;
+    font-size: 40px;
+}

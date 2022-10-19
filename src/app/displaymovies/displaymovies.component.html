@@ -1,0 +1,23 @@
+
+<!-- heading -->
+
+<h2 class="heading m-3">Way to book your tickets <i class="fa-regular fa-hand-point-down"></i></h2>
+<!-- <h3 class="select">Select your language</h3> -->
+
+<div class="dropdown show m-5">
+  <a class="btn  dropdown-toggle button" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    choose your language
+  </a>
+
+  <div class="dropdown-menu dropmenu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#" routerLink="telugu" routerLinkActive>Telugu</a>
+    <a class="dropdown-item" href="#" routerLink="hindi" routerLinkActive>Hindi</a>
+    <a class="dropdown-item" href="#" routerLink="english" routerLinkActive>English</a>
+  </div>
+</div>
+
+
+<div class="container">
+  <router-outlet>
+      </router-outlet>
+</div>

@@ -1,0 +1,184 @@
+.mainhead{
+  /* background-color: #e7bdbb; */
+  background-color: black;
+}
+.moviename{
+  font-family: 'Shalimar', cursive;
+  font-size: 70px;
+  text-shadow:2px 2px 5px #e1bbc2;
+}
+.cast{
+  font-family: 'Shadows Into Light', cursive;
+}
+.desc{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 14px;
+}
+.deets{
+  color: white;
+}
+.div1{
+    /* background-image: linear-gradient(to right,#a0a0a0 , #efefef); */
+    background-color: #616161;
+    box-shadow: 2px 4px 5px whitesmoke;
+    padding: 10px 200px;
+    border-radius: 5px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Saira', sans-serif;
+}
+.subdiv{
+  margin-bottom: 90px;
+}
+.div2{
+    /* background-image: linear-gradient(to right,#a5b2ce , #b5c0d7); */
+    /* background-color: 
+    #f6979d; */
+    background-color: #e1bbc2;
+     /* box-shadow: 2px 4px 5px whitesmoke; */
+    padding: 20px 110px !important ;
+    /* margin-top: 50px; */
+    border-radius: 5px;
+    /* margin-right: 50px; */
+  
+    font-size: 15px;
+    font-family: 'Saira', sans-serif;
+    /* box-shadow: 8px 8px 10px #f6b1bb, -8px -8px 10px #f6b1bb; */
+}
+i{
+    padding-right: 10px;
+}
+.head{
+    
+    font-family: 'Saira', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    border: solid rgb(202, 199, 199);
+    border-color: rgb(79, 78, 78);
+    padding: 2px 6px;
+    background-color: rgb(97, 93, 93);
+    border-radius: 5px;
+    color: white;
+}
+.head1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    /* text-align: center; */
+    /* text-shadow: 2px 2px 5px #cd99a1; */
+    /* margin-bottom: 20px; */
+
+}
+h5{
+    /* font-family: 'Tangerine', cursive; */
+    font-size: 13px;
+    font-weight: bolder;
+    /* text-shadow: 2px 2px 5px    #cdc599; */
+    border-color: #dae7f5;
+    border: dashed pink;
+}
+.container{
+    position: relative;
+  width: 210px;
+  height: 530px;
+  border-radius: 20px;
+  
+  box-sizing: border-box;
+  /* background:#434343; */
+  /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+    
+  }
+  
+  label, input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+  }
+  label{
+    color: #616161;
+    font-weight: bolder
+  }
+  
+  label {
+    margin-bottom: 4px;
+    /* color: #eceee7; */
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 3px;
+    width: 100%;
+  }
+  
+  button {
+    color: black;
+    margin-top: 30px;
+    background: #eceee7;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+    transition: 0.5s;
+    
+  }
+  
+  button:hover {
+    box-shadow: none;
+  }
+  
+  a {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  
+.movimg{
+    border-radius: 10px;
+    /* margin: 15px; */
+}
+.formhead{
+    text-align: center;
+    color: black;
+    font-family: 'Licorice', cursive;
+    font-size: 37px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    /* margin-bottom: 40px; */
+}
+.ip{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 22px;
+  font-weight: bold;
+}
+

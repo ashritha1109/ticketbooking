@@ -1,0 +1,90 @@
+<div class="mainhead">
+  <div class="d-flex justify-content-evenly">
+    <div class="text-center p-3 deets">
+      <h3 class="moviename">{{ movieDetails.name }}</h3>
+      <img
+        src="{{ movieDetails.imgUrl }}"
+        alt=""
+        width="45%"
+        class="pt-5 movimg"
+      />
+      <div class="p-2">
+        <span class="head">2D</span> &#x2022; <span class="head">English</span>
+      </div>
+      <div class="p-2">
+        <span class="head1">{{ movieDetails.duration }}</span> &#x2022;
+        <span class="head1">{{ movieDetails.genre }}</span> &#x2022;
+        <span class="head1">UA</span>
+      </div>
+      <div>
+        <h4 class="cast"><i class="fa-solid fa-children"></i> {{ movieDetails.cast }}</h4>
+      </div>
+      <h5 class="p-2 desc">{{ movieDetails.description }}</h5>
+    </div>
+    <div class="d-flex flex-column bd-highlight p-5 mt-5 subdiv">
+      <div class="div2 p-3 m-5">
+        <div class="container">
+          <h4 class="formhead">book your ticket here <i class="fa-regular fa-hand-point-down"></i></h4>
+
+          <form [formGroup]="ticketDetails" (ngSubmit)="onSubmit()">
+            <div class="main">
+              <div class="inputs">
+                <label for="name">Movie name</label>
+                <input
+                  type="text"
+                  class="ip"
+                  id="name"
+                  placeholder="Enter the day you want to plan"
+                  formControlName="name"
+                />
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+              <div class="inputs">
+                <label for="name">Language</label>
+                <input
+                  type="text"
+                  class="ip"
+                  id="name"
+                  placeholder="Enter the day you want to plan"
+                  formControlName="lang"
+                />
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+              <div class="inputs">
+                <!-- <label for="name">City name</label> -->
+                <input
+                  type="text"
+                  class="ip"
+                  id="name"
+                  placeholder=" enter city name"
+                  formControlName="city"
+                />
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+              <div class="inputs">
+                <!-- <label for="tickets">enter num of tickets</label> -->
+                <input
+                  type="text"
+                  id="tickets"
+                  placeholder="enter number of tickets"
+                  formControlName="tickets_available"
+                  class="ip"
+                />
+              </div>
+              <div class="form-group row inputs">
+                <input
+                  type="text"
+                  id="show"
+                  placeholder="morning/matnee/first/second"
+                  formControlName="show"
+                  class="ip"
+                />
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

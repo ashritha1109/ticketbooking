@@ -1,0 +1,33 @@
+.btn1{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 6px;
+    }
+    .card{
+    background-color:   #efa2b0;
+    }
+    i{
+        color:#f5c5ce;
+        margin: 3px;
+    }
+    .footer{
+        background-color: 
+        #a1a1af;
+       
+    }
+    input{
+        list-style: inside;
+    }
+    h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    h3{
+        font-family: 'Saira', sans-serif;
+    }
+    h5{
+        font-family: "New Tegomin", serif;
+        font-weight: bold;
+    }
+    .top,.mid{color:whitesmoke;}

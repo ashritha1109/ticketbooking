@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px palevioletred;
+}
+h2{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+img{
+  width: auto;
+  padding: auto;
+  margin: auto;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+.main{
+  background-color: #f6d6d6;
+  height: 500px;
+}
+h4{
+  text-align: center;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 25px;
+}

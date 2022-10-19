@@ -1,0 +1,18 @@
+
+<div class="form">
+  <div class="form__box">
+    <div class="form__left">
+      <div class="form__padding"><img class="form__image" src="https://i.pinimg.com/originals/8b/44/51/8b4451665d6b2139e29f29b51ffb1829.png"/></div>
+    </div>
+    <div class="form__right">
+      <div class="form__padding-right">
+        <form [formGroup]="loginDetails" (ngSubmit)="onLogin()">
+          <h1 class="form__title">Member Login</h1>
+          <input class="form__email" type="text" placeholder="Username" formControlName="username"/>
+          <input class="form__password" type="password" placeholder="******" formControlName="password"/>
+          <input class="form__submit-btn" type="submit" value="Login"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

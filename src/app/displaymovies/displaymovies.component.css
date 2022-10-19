@@ -1,0 +1,25 @@
+.maindiv{
+    background-color: black;
+}
+.heading{
+    text-align: center;
+}
+.select{
+    text-align: center;
+}
+.show{
+    text-align: center;
+}
+.button{
+    background-color: #eeadad;
+    border-radius: 5px;
+    border-color: #754c4c;
+    color: black;
+}
+.dropmenu{
+    background-color: #f8e0e0;
+}
+h2{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}

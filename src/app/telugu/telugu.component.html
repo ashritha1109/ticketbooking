@@ -1,0 +1,38 @@
+
+
+<!-- creating a card -->
+<div class="body">
+    <div >
+      <section class="main row">
+        <div class="container col-4" *ngFor="let data of movies">
+          
+          <div class="card">
+            
+            <div class="content">
+              
+              <div class="m-3">
+                <i class="fa-regular fa-thumbs-up icon" [class.rate]='isRated' (click)="changeButton(data)" [ngClass]="{changeColor: data.interested===true}"></i> 
+              </div>
+              <div class="imgBx">
+                <img src={{data.imgUrl}}>
+              </div>
+              <div class="contentBx">
+                <h3>{{data.name}} <br><span>{{data.genre}}</span></h3>
+              </div>
+            </div>
+            <ul class="sci">
+              <li>
+                <!-- <a href="">happy</a> -->
+                <a class="btn button" (click)=book(data.id)>Book your ticket</a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  </div>
+  
+  
+  <router-outlet></router-outlet>
