@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./afterlogin.component.css']
 })
 export class AfterloginComponent implements OnInit {
-
+name:any;
   constructor() { }
 
   ngOnInit(): void {
+    this.name=localStorage.getItem("username");
   }
 
 }

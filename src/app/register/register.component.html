@@ -13,6 +13,7 @@
           <input class="form__email" type="email" placeholder="email" formControlName="email"/>
           <input class="form__email" type="number" placeholder="phone number" formControlName="contact"/>
           <input class="form__submit-btn" type="submit" value="Register now"/>
+          <p *ngIf="!isTrue">All fields are required</p>
         </form>
       </div>
     </div>

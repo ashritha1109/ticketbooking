@@ -29,19 +29,27 @@ export class LoginComponent implements OnInit {
           this.router.navigate(['admin'])
         }
       }
+      let flag=0;
     for(const i of (data as any)){
 
       if(i.username===this.loginDetails.value.username){
         //console.log("correct user")
         if(i.password===this.loginDetails.value.password){
           alert("login success")
+          
         //  console.log("right user")
         localStorage.setItem("username",i.username)
           this.router.navigate(['afterlogin'])
+          flag=1;
+          break;
         }
       }
-      //console.log(i.username)
-      //console.log(this.loginDetails.value.username)
+      else{
+        flag=0;
+      }
+    }
+    if(flag===0){
+      alert("invalid credentials")
     }
     })
   }

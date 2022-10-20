@@ -34,6 +34,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 
 import {MatInputModule} from '@angular/material/input';
+import { ShowmoviesComponent } from './showmovies/showmovies.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,8 @@ import {MatInputModule} from '@angular/material/input';
     FailureComponent,
     TeluguticketbookComponent,
     AdminComponent,
-    HinditicketbookComponent
+    HinditicketbookComponent,
+    ShowmoviesComponent
   ],
   imports: [
     BrowserModule,

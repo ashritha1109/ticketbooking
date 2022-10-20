@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { LoginguardGuard } from './loginguard.guard';
 import { RegisterComponent } from './register/register.component';
+import { ShowmoviesComponent } from './showmovies/showmovies.component';
 import { SuccessComponent } from './success/success.component';
 import { TeluguComponent } from './telugu/telugu.component';
 import { TeluguticketbookComponent } from './teluguticketbook/teluguticketbook.component';
@@ -64,7 +65,7 @@ const routes: Routes = [
   { path: 'admin', component: AdminComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'contactus', component: ContactusComponent },
-
+{path:'showmovies',component:ShowmoviesComponent},
   { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
 

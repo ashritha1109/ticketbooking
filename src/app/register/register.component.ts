@@ -18,14 +18,26 @@ export class RegisterComponent implements OnInit {
   constructor(private service: MoviedataService,private router:Router) {}
 
   ngOnInit(): void {}
+  isTrue:Boolean=true;
   onSubmit() {
+    var name=this.registerData.value.username
+    var pwd=this.registerData.value.password;
+    var email=this.registerData.value.email
+    var contact=this.registerData.value.contact;
+
     console.log(this.registerData.value);
-    this.service
+    if(name==""||pwd===""||email===""||contact===""){
+      this.isTrue=false;
+    }
+    else{
+      this.service
       .postRegisteredData(this.registerData.value)
       .subscribe((data) => {
         console.log(data);
         alert("user registered successfully")
         this.router.navigate(['login'])        
       });
+    }
+
   }
 }

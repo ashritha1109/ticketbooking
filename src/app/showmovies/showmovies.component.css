@@ -1,0 +1,22 @@
+
+.cards{
+    background-color:#f9edf1
+}
+.card-header{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    }
+.card-body{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 35px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 10px;
+    font-size: 55px;
+    color: #f9edf1;
+}
+    
+
