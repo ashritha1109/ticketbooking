@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { TeluguComponent } from './telugu/telugu.component';
 import { HindiComponent } from './hindi/hindi.component';
 import { EnglishComponent } from './english/english.component';
-// import { BookticketComponent } from './bookticket/bookticket.component';
 import { TicketbookComponent } from './ticketbook/ticketbook.component';
 import { ReactiveFormsModule , FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
